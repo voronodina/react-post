@@ -1,0 +1,7 @@
+.mybutton {
+    background: turquoise;
+    border: 1px solid teal;
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+}

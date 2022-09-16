@@ -1,0 +1,40 @@
+.like {
+    display: grid;
+    grid-template-areas: 'skrin button';
+    justify-content: center;
+}
+.skrin {
+    display: grid;
+    grid-template-areas: 'cloc cnopka';
+    background-color:white;
+    justify-items: center;
+    width: 150px;
+}
+.button {
+    width: 150px;
+    display: grid;
+    grid-template-areas: 'cloc cnopka';
+    justify-items: center;
+    
+}
+.color {
+    background-color: rgb(125, 130, 130);
+    border-radius: 0px 50px 50px 0px;
+}
+.bor{
+    border-radius: 50px 0px 0px 50px;
+}
+.cloc {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: auto;
+    
+}
+.cnopka {
+    background: blanchedalmond;
+    width: 50px;
+    
+}

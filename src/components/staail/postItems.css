@@ -1,0 +1,26 @@
+.post {
+    display: grid;
+    grid-template-areas:'a' 'b' 'c';  
+    padding: 20px;
+    border: 1px solid rgb(56, 143, 180);
+    margin-top: 10px;
+    align-items: center;
+}
+.hed {
+    border: 1px solid rgb(56, 143, 180);
+    padding: 30px;
+    font-size: 2rem;
+    word-break: break-all;
+    line-height: 3rem;
+}
+.content {
+    word-break: break-all;
+    font-size: 1.5rem;
+    padding: 50px 10px 50px 10px;
+    line-height: 3rem
+}
+.futer {
+    display: grid;
+    grid-template-areas: 'button Counter';
+    justify-content: space-between;
+}
